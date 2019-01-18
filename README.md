@@ -1,2 +1,4 @@
-# vidclip-anik121
-vidclip template
+# vidclip Template
+
+VidClip
+

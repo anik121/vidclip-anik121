@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+*{
+    box-sizing: border-box;
+}
+$main-deep: #f77062;
+$main-light: #fda085;
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    width: 82%;
+}
+#header{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    nav{
+        background-color: transparent;
+        box-shadow: none;
+        position: relative;
+        top: 50px;
+        .brand-logo{
+            img{
+                width: 265px;
+                height: 60px;
+                object-fit: contain;
+              }
+        }
+        .nav_menu{
+            margin-right: 150px;
+        }
+        .login{
+            position: absolute;
+            right: 0;
+            width: 120px;
+            text-align: center;
+            border-radius: 7px;
+            background-color: white;
+            color: #333333;
+            font-weight: bold;
+            transition: all 0.5s;
+            &:hover{
+                background-color: #ddd;
+            }
+        }
+    }
+
+      .header-button{
+          
+        .Rectangle {
+            width: 192px;
+            height: 75px;
+            border-radius: 7px;
+            background-image: linear-gradient(70deg, $main-deep, $main-light);
+            color: white;
+            padding: 12px 20px;
+          }
+
+          .Watch-Video {
+            position: relative;
+            width: 149px;
+            height: 30px;
+            font-family: ProximaNova;
+            font-size: 18px;
+            font-weight: 600;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.36;
+            letter-spacing: normal;
+            color: $main-deep;
+            margin-left: 45px;
+            &::before{
+                content: '';
+                position: absolute;
+                left: -20px;
+                top: 50%;
+                transform: translateY(-50%);
+                border: 8px solid transparent;
+                border-left-color: $main-deep;
+            }
+          }
+      }
+
+      .header-box{
+        display: flex;
+      
+      .left-side-content{
+          position: relative;
+          top: 130px;
+          height: 100%;
+          width: 100%;
+        .Sell-Market-Grow {
+            width: 500px;
+            height: 121px;
+            font-family: ProximaNova;
+            font-size: 36px;
+            font-weight: 600;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.08;
+            letter-spacing: normal;
+            color: #30313b;
+          }
+
+          .We-provide-software {
+            width: 400px;
+            height: 125px;
+            opacity: 0.5;
+            font-family: ProximaNova;
+            font-size: 15px;
+            font-weight: 600;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.32;
+            letter-spacing: normal;
+            color: #2e2f39;
+          }
+      }
+
+      .right-side-content{
+          position: relative;
+           height: 100%;
+           width: 100%;
+          .Ellipse-1 {
+            position: absolute;
+            top: 150px;
+            right: 0;
+            width: 90px;
+            height: 90px;
+            background-color: white;
+            border-radius: 50%;
+            &::before{
+                content: '';
+                position: absolute;
+                left: 61%;
+                top: 35%;
+                -webkit-transform: translate(-50%);
+                transform: translate(-50%);
+                border: 15px solid transparent;
+                border-left-color: transparent;
+                border-left-color: $main-deep;
+            }
+          }
+        .Layer-2 {
+            width: 700px;
+            height: auto;
+            object-fit: contain;
+            background-color: rgba(0, 0, 0, 0);
+          }
+          .like{
+            position: absolute;
+            top: 115px;
+            right: 215px;
+            width: 28px;
+            height: auto;
+            background-color: rgba(0, 0, 0, 0);
+          }
+      }
+
+    }
+    .masking{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 700px;
+        height: 715px;
+        z-index: -1;
+        overflow: hidden;
+        .Mask {
+            position: absolute;
+            top: -50px;
+            right: -50px;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(50deg, #667eea, #fbc2eb);
+            border-top-left-radius: 100px;
+            border-bottom-left-radius: 100px;
+            transform: rotate(-8deg);
+          }
+    }
+}
+
+@media (min-width: 900px){
+    #header{
+        .header-box{
+            .right-side-content{
+                position: relative;
+              .Layer-2 {
+                  position: absolute;
+                  left: -100px;
+                  top: 85px;
+              }
+            }
+        }
+    }
+}
+
+// end header section style
+
+
+// start go viral section
+#go_viral{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     .content{
+        .media-logo {
+            width: 91px;
+            height: 59px;
+            object-fit: contain;
+          }
+          .title{
+            font-size: 35px;
+          }
+     }
+     .info{
+        width: 700px;
+        margin: auto;
+        display: block;
+        font-size: 18px;
+     }
+     .Combined-Shape {
+        max-width: 950px;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 18px;
+        background-image: linear-gradient(82deg, #667eea, #fbc2eb);
+        font-size: 18px;
+        color: white;
+      }
+}
+
+// end go viral section
+
+#ads{
+    position: relative;
+    width: 1005;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & > .content{
+        text-align: center;
+        border-radius: 30px;
+        background-image: linear-gradient(60deg, $main-deep, $main-light);
+        padding: 50px 50px;
+        .title{
+            font-size: 30px;
+        }
+        .title,.info{
+            color: white;
+        }
+        .info{
+            margin-bottom: 80px;
+            font-size: 18px;
+        }
+        .box{
+            .b{
+                img{
+                    width: 50px;
+                    height: auto
+                }
+                & > *{
+                    color: white;
+                }
+                a{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
