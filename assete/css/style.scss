@@ -239,6 +239,8 @@ body{
 
 // end go viral section
 
+
+// start ADS section
 #ads{
     position: relative;
     width: 1005;
@@ -274,6 +276,51 @@ body{
                     font-weight: bold;
                 }
             }
+        }
+    }
+}
+
+// end ADS section
+
+
+// start template section
+#template{
+    width: 100%;
+    height: 100vh;
+    .title{
+        text-align: center;
+        font-weight: bold;
+    }
+    .info{
+        text-align: center;
+        width: 700px;
+        margin: auto auto 30px auto;
+    }
+    .content{
+        .slider-content{
+
+            .carousel {
+                height: 400px;
+                .carousel-item{
+                    height: 100%;
+                    .content{
+                        background-color: #333333;
+                        width: 300px;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+        .get-link{
+            position: relative;
+            top: 50px;
+            left: 40%;
+            transform: translateX(-50%);
+            border-radius: 7px;
+            padding: 20px 70px;
+            color: white;
+            background-image: linear-gradient(82deg, $main-deep, $main-light);
+           font-size: 18px;
         }
     }
 }
